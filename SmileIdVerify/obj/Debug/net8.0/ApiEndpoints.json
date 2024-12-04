@@ -1,0 +1,55 @@
+[
+  {
+    "ContainingType": "SmileIdVerify.Controllers.KYCController",
+    "Method": "VerifyIdentity",
+    "RelativePath": "api/KYC",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestData",
+        "Type": "SmileIdVerify.Models.BasicKyc.BasicKycRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmileIdVerify.Controllers.KYCController",
+    "Method": "VerifyPhoneNumber",
+    "RelativePath": "api/KYC/verify-phone-number",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "phoneVerificationRequest",
+        "Type": "SmileIdVerify.Models.PhoneVerification.PhoneVerificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmileIdVerify.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SmileIdVerify.WeatherForecast, SmileIdVerify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
